@@ -6,4 +6,9 @@ class Task {
 
 var tasks: Task[] = [];
 tasks.push(new Task('Do the dishes.', 'Medium'));
-console.log(tasks);
+tasks.push(new Task('Buy chocolate.', 'Low'));
+tasks.push(new Task('Do laundry.', 'High'));
+
+for(var task of tasks) {
+  console.log(task);
+}
